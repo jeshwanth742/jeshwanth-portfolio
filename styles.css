@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+header {
+    background-color: #0f172a;
+    color: #f1f5f9;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.resume-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #facc15;
+    color: #0f172a;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#education ul, #certifications ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#certifications a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+#certifications a:hover {
+    text-decoration: underline;
+    color: #facc15;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
